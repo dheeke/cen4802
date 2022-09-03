@@ -1,8 +1,22 @@
 import java.util.Scanner;
 
+/**
+ * 
+ * @author Dennis Heeke
+ *@version 1.0
+ */
+
 public class NthFibonacci
 {
-	
+	/**
+	 * This is the method that will receive a parameter that represents the
+	 * number of Fibonacci elements to be displayed on the console. If the parameter
+	 * is 0 the method returns 0. it the parameter is 1 or 2 the method will return
+	 *  the value of 1. For any positive value the recursive method is initiated and 
+	 *  its value is returned.
+	 * @param n The Nth number of the Fibonacci series.
+	 * @return
+	 */
 
 	public static int calculateFibonacci(int n)
 	{
